@@ -1,0 +1,16 @@
+[
+    {
+        "tipo": "tabla",
+        "columnas": ["nombre","apellido","tipoDocumento","documento ","email"]  
+    },
+    {
+        "tipo": "select",
+        "opciones": ["DNI","Cédula","Pasaporte"]
+    },
+    {   
+        "tipo": "form",
+        "datos": ["Nombre","Apellido","Tipo","Documento","Email"],
+        "Handle": ["string","string","none","int","string"],
+        "url": "http://10.0.0.68:81/personas/"
+    }
+]
